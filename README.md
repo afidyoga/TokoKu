@@ -33,3 +33,5 @@ flask run --debug
 ```
 
 Server Flask akan berjalan di http://127.0.0.1:5000/ atau alamat lokal yang sesuai.
+# Demo
+https://afidyoga.pythonanywhere.com/
