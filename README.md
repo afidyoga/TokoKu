@@ -3,12 +3,13 @@
 # 1. Buat dan Aktifkan Virtual Environment
 # Windows:
 ```bash
+python -m venv FlaskEnv
 FlaskEnv\Scripts\activate
 ```
 # Mac/Linux:
 ```bash
 python3 -m venv FlaskEnv
-source FlaskEnv/bin/activate  # Untuk Mac/Linux
+source FlaskEnv/bin/activate
 ```
 # 2. Pasang Dependensi
 ```bash
