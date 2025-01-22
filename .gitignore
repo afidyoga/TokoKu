@@ -1,0 +1,17 @@
+# Ignore virtual environment
+FlaskEnv/
+
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore other unnecessary files (adjust as needed)
+*.db
+*.log
+*.env
+
+# Ignore IDE configurations (adjust based on your editor)
+.vscode/
+.idea/

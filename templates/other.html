@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block title %}
+About Us
+{% endblock %}
+
+{% block content %}
+
+<div class="content-other">
+    <div class="container mt-4">
+
+        <h2 class="mt-5">Game Gift & Top-Up Wallet</h2>
+        <div class="d-flex justify-content-between align-items-start">
+            <div class="mt-5 col-md-6">
+                <p>
+                    Kami menyediakan layanan eksklusif untuk meningkatkan pengalaman gaming Anda melalui fitur Game Gift dan Top-Up saldo Steam Wallet. Semua layanan ini dikelola langsung oleh Admin dengan proses transaksi yang mengikuti ketentuan yang berlaku.
+                </p>
+                <h2 class="mt-5">Cara Memulai</h2>
+                <p class="mt-4">
+                    1. Tambahkan akun Steam Admin kami sebagai teman di Steam.<br>
+                    2. Pilih layanan yang Anda butuhkan.<br>
+                    3. Nikmati berbagai metode pembayaran fleksibel yang telah kami sediakan untuk kenyamanan Anda.
+                </p>
+                <p class="mt-4">
+                    Jika ada pertanyaan atau memerlukan informasi lebih lanjut, jangan ragu untuk menghubungi kami melalui Instagram. Klik tombol kontak di bawah untuk langsung mengirim DM ke Admin.
+                </p>
+                <p class="mt-4">
+                    Kami juga menyediakan link untuk menuju akun Steam Admin. Jangan lupa untuk Add Friend ya. Cheers! 🎮
+                </p>
+                <p class="d-flex justify-content-center">
+                    <a href="https://steamcommunity.com/profiles/76561199256907349/" class="nav-btn">Steam Admin</a>
+                    <a href="{{ url_for('contact') }}" class="nav-btn">Contact</a>
+                </p>
+            </div>
+            
+            <div class="mt-5 col-md-6">
+                <img src="{{ url_for('static', filename='img/other.png') }}" alt="Other Image" class="img-fluid rounded img-other float-end">
+            </div>
+        </div>
+
+    </div>
+</div>
+
+{% endblock %}
